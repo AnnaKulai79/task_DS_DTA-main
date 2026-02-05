@@ -3,11 +3,25 @@
 
 myenv
 
+.env
+
 create.txt
 
 Lesson materials.xlsx
 
+# MLflow and Databases
+mlflow.db
+mlruns/
+artifacts/
+
+# Data files
 *.csv
 *.xlsx
 *.xls
-*.xlsb
+
+# Python & IDE
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
